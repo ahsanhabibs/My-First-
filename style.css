@@ -1,16 +1,18 @@
-.bg{
-    width: 700%px;
-    height: 400px;
-    background: url(000.jpg) no-repeat center ;
-    overflow: hidden;
+h1{
+    color: red;
+}
+h2{
+    color: rgb(51, 11, 130);
 }
 p{
-    font-size: 40px;
+    color: #9f1ca6;
 }
-.box p{
-    text-align: center;
-    background-color: white;
-    padding: 10px;
-    margin-top: 100px;
-    opacity: 0.7;
+p1{
+    font-style: italic;
+    color: #ee5253;
+}
+.Box{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(#ee5253,#43a2e6);
 }
