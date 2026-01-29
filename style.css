@@ -1,18 +1,20 @@
 h1{
-    color: red;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px red;
 }
-h2{
-    color: rgb(51, 11, 130);
-}
-p{
-    color: #9f1ca6;
-}
-p1{
-    font-style: italic;
-    color: #ee5253;
-}
-.Box{
+.box{
+    width: 500px;
     height: 400px;
-    width: 400px;
-    background: radial-gradient(#ee5253,#43a2e6);
+    text-align: center;
+    margin:auto ;
+    border: 1px solid rgb(0,0,0, 0.5);
+    box-shadow: 5px 5px 5px rgb(0,0,0, 0.5),
+    -5px -5px 5px rgb(0,0,0, 0.5);
+}
+.box img{
+    width: 100%;
+}
+h3{
+    margin: 0;
 }
